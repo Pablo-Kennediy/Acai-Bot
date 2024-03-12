@@ -1,46 +1,63 @@
-*{
-font-family: Arial, Helvetica, sans-serif;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background-color: #230D73;
+
+body {
+    background-color: #30A8F2;
     color: white;
 }
 
-a{
+a {
     color: white;
 }
-h1{
+
+h1 {
     font-size: xx-large;
 }
-p ,h2{
-    font-size:  x-large;
+
+p,
+h2 {
+    font-size: x-large;
     text-align: center;
 }
-ul{
+
+ul {
     list-style: none;
 }
-ul li{
+
+ul li {
     display: inline-block;
+    align-items: center;
+    margin-top: 25px;
 }
 
-.beneficios ul{
-    columns:2;
+.beneficios ul {
+    columns: 2;
 }
-.beneficios ul li{
+
+.beneficios ul li {
     border: 2px solid gray;
     border-radius: 15px;
-    margin: 25px;
-    padding: 15px;
 }
-video{
+
+video {
     width: 100%;
 }
-.mais ul{
+
+.mais ul {
     columns: 3;
 }
-.mais ul li{
+
+.mais ul li {
     border: 2px solid gray;
     border-radius: 15px;
-    margin: 15px;
-    padding: 15px;
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+img#logoAcai {
+    display: flex;
 }
