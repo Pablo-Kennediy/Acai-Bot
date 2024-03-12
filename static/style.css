@@ -25,10 +25,13 @@ ul {
     list-style: none;
 }
 
-ul li {
+ li {
     display: inline-block;
     align-items: center;
     margin-top: 25px;
+}
+.beneficios, .mais{
+    background-color: #9dc5df;
 }
 
 .beneficios ul {
@@ -49,6 +52,7 @@ video {
 }
 
 .mais ul li {
+    margin: auto;
     border: 2px solid gray;
     border-radius: 15px;
     padding: 5px;
@@ -59,5 +63,19 @@ video {
 }
 
 img#logoAcai {
+    margin: auto;
+}
+.flex-mobile {
     display: flex;
+}
+@media (max-width: 900px) {
+  div.flex-mobile {
+    display: block;
+  }
+}
+input, select{
+    border-radius: 5px;
+}
+section{
+    padding: 15px;
 }
