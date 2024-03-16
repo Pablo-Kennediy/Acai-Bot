@@ -33,7 +33,7 @@ ul {
     columns: 2;
 }
 
-.beneficios ul li {
+.beneficios ul li, .mais {
     border: 2px solid gray;
     border-radius: 15px;
 }
@@ -59,6 +59,7 @@ video {
 
 img#logoAcai {
     margin: auto;
+    max-width: 285px;
 }
 .flex-mobile {
     display: flex;
