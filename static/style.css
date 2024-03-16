@@ -58,7 +58,7 @@ img#logoAcai {
 .flex-mobile {
     display: flex;
 }
-@media (max-width: 900px) {
+@media (max-width: 500px) {
   div.flex-mobile {
     display: block;
   }
