@@ -2,10 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-
-}
-
 a {
     color: white;
 }
@@ -47,7 +43,7 @@ video {
 }
 
 .mais ul {
-    columns: 3;
+    columns: 2;
 }
 
 .mais ul li {
