@@ -1,16 +1,18 @@
 * {
     margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-body, header{
+
+body,
+header {
     width: 100%;
 }
-.inteface{
+
+.inteface {
     display: block;
     margin: auto;
-    max-width: 95%;
 }
+
 a {
     color: white;
 }
@@ -34,8 +36,8 @@ li {
     margin-top: 25px;
 }
 
-
-.beneficios .mais, ul li{
+.beneficios .mais,
+ul li {
     border: 2px solid gray;
     border-radius: 15px;
     margin-top: 15px;
@@ -45,7 +47,8 @@ video {
     width: 100%;
 }
 
-.mais ul, .beneficios ul {
+.mais ul,
+.beneficios ul {
     margin: auto;
     columns: 2;
 }
@@ -54,26 +57,34 @@ video {
     display: flex;
 }
 
-img#logoAcai {sec
-    margin: auto;
+img#logoAcai {
+    sec margin: auto;
     max-width: 285px;
 }
+
 .flex-mobile {
     display: flex;
 }
+
 @media (max-width: 700px) {
-  div.flex-mobile {
-    display: block;
-    margin: auto;
-width: 100%;  }
-  .mais ul, .beneficios ul{
-    columns: 1;
-  }
+    div.flex-mobile {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+    .mais ul,
+    .beneficios ul {
+        columns: 1;
+    }
 }
-input, select{
+
+input,
+select {
     border-radius: 5px;
 }
-section{
+
+section {
     padding: 5px;
     margin: auto;
 }
