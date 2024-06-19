@@ -86,6 +86,7 @@ video {
 
 input,
 select {
+    background-color: rgba(137, 43, 226, 0.61);
     border-radius: 5px;
 }
 
@@ -95,8 +96,25 @@ section {
 }
 label {
     display: flex;
+    margin: 15px;
 }
 label p{
     text-align: justify;
     font-size: medium;
+}
+#ppt li{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgba(137, 43, 226, 0.61);
+    color: black;
+
+}
+button{
+    color: black;
+    background-color: rgba(137, 43, 226, 0.61);
+border-radius: 15px;
+padding: 5px;
+}
+section{
+    background-color: rgba(137, 43, 226, 0.205);
 }
