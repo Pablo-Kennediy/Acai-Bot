@@ -48,6 +48,7 @@ ul li {
 }
 
 video {
+    display: block;
     width: 100%;
 }
 
