@@ -11,15 +11,64 @@
 
 <body>
   <div class="inteface">
-    <picture id="logoAcai">
-      <img class="logoAcai" src="static/logo Acai.png" alt="">
-    </picture>
-<video muted loop autoplay>
-  <source media="(min-width: 501px)" src="static/AÇAI BOT.mp4" style="video::internal-media-controls{display: ;}" >
-  <source media="(min-width: 500px)" src="static/AÇAI BOT mobille.mp4" style="video::internal-media-controls{display: ;}" >
-</video>  
-  <header>
-        </header>
+    <header>
+      <video muted loop autoplay>
+        <source media="(min-width: 501px)" src="static/AÇAI BOT.mp4" style="video::internal-media-controls{display: ;}">
+        <source media="(max-width: 500px)" src="static/AÇAI BOT mobille.mp4"
+          style="video::internal-media-controls{display: ;}">
+      </video>
+      <picture id="logoAcai">
+        <img class="logoAcai" src="static/logo Acai.png" alt="">
+      </picture>
+      <div style="max-width: 800px; margin: auto;">
+        <form action="#">
+          <ul>
+            <h1>
+              Teste o AÇAI BOT sem pagar nada
+            </h1>
+            <label for="nome_delivery">
+              <p>
+                Nome:
+              </p>
+              <input type="text" id="nome_delivery" name="nome_delivery" placeholder="Digite o nome do seu delivery">
+            </label>
+            <label for="email">
+              <p>
+                Email:
+              </p>
+              <input type="email" id="email" name="email" placeholder="Digite seu email">
+            </label>
+            <label for="celular">
+              <p>
+                Celular:
+              </p>
+              <input type="tel" id="celular" name="celular" placeholder="Digite seu celular">
+            </label>
+            <label for="quantidade_pedidos">
+              <p>
+                Quantidade de pedidos por dia:
+              </p>
+              <br>
+            </label>
+            <select id="quantidade_pedidos" name="quantidade_pedidos">
+              <option value="menos_10">Menos de 10</option>
+              <option value="mais_10">Mais de 10</option>
+            </select>
+            </li>
+            <label for="computador">
+              <p>
+                Já tem computador ou notebook?
+              </p>
+            </label>
+            <input type="radio" id="computador_sim" name="computador" value="sim" checked>
+            Sim
+            <input type="radio" id="computador_nao" name="computador" value="nao">
+            Não
+            <button type="submit">Enviar</button>
+          </ul>
+        </form>
+      </div>
+    </header>
     <section class="problema">
       <li>
         Explosão nas vendas!
@@ -30,62 +79,12 @@
       <h2>Cansado de perder vendas por falta de tempo para atender seus clientes?</h2>
       <p>O Açaibot é a solução definitiva para você! A plataforma completa que automatiza seu atendimento via WhatsApp,
         liberando seu tempo para focar no que realmente importa: expandir seu negócio de açaí!</p>
-     
-      <div class="flex-mobile" style="margin: auto;">
     </section>
-        <div style="max-width: 800px; margin: auto;">
-      <form action="#">
-        <ul>
-          <h1>
-            Teste o AÇAI BOT sem pagar nada
-          </h1>
-          <label for="nome_delivery">
-            <p>
-              Nome:
-            </p>
-            <input type="text" id="nome_delivery" name="nome_delivery" placeholder="Digite o nome do seu delivery">
-          </label>
-          <label for="email">
-            <p>
-              Email:
-            </p>
-            <input type="email" id="email" name="email" placeholder="Digite seu email">
-          </label>
-          <label for="celular">
-            <p>
-              Celular:
-            </p>
-            <input type="tel" id="celular" name="celular" placeholder="Digite seu celular">
-          </label>
-          <label for="quantidade_pedidos">
-            <p>
-              Quantidade de pedidos por dia:
-            </p>
-            <br>
-          </label>
-          <select id="quantidade_pedidos" name="quantidade_pedidos">
-            <option value="menos_10">Menos de 10</option>
-            <option value="mais_10">Mais de 10</option>
-          </select>
-          </li>
-          <label for="computador">
-            <p>
-              Já tem computador ou notebook?
-            </p>
-          </label>
-          <input type="radio" id="computador_sim" name="computador" value="sim" checked>
-          Sim
-          <input type="radio" id="computador_nao" name="computador" value="nao">
-          Não
-          <button type="submit">Enviar</button>
-        </ul>
-      </form>
-    </div>
-    <h3 style="font-size: xx-large; max-width: 80%;">
-      Revolucione seu negócio com nosso atendimento 24 hrs.
-    </h3>
-  </div>
-  <section class="beneficios">
+  
+      <section class="beneficios">
+        <h3 style="font-size: xx-large; max-width: 80%;">
+          Revolucione seu negócio com nosso atendimento 24 hrs.
+        </h3>
     <h3>Com o Açaibot, você garante:</h3>
     <li>
       **Atendimento 24/7:** Seus clientes são atendidos instantaneamente, a qualquer hora do dia ou da noite, sem

@@ -68,9 +68,6 @@ video {
     max-width: 285px;
 }
 
-.flex-mobile {
-    display: ;
-}
 
 @media (max-width: 700px) {
     div.flex-mobile {
@@ -120,6 +117,5 @@ section{
     background-color: rgba(137, 43, 226, 0.205);
 }
 .problema{
-    height: 45vh;
     padding: 15px;
 }
