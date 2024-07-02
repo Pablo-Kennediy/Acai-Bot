@@ -119,3 +119,7 @@ section{
 .problema{
     padding: 15px;
 }
+section#secHeader {
+    background-color: white;
+    padding: 15px;
+}
