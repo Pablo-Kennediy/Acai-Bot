@@ -1,35 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../static/style.css">
+        <link rel="shortcut icon" href="../static/logo Acai.png" type="image/x-icon">
         <title>Sabores de Sorvete</title>
 </head>
 
 <body>
-        <picture>
+        <picture id="logoAcai">
                 <a href="../index.html">
-                        <img src="/static/logo Acai.png" style="max-width: 185px; display: block;" alt="">
+                        <img src="/static/logo Acai.png" alt="">
                 </a>
-                <p>
+                <h1>
                         Um bom motivo para adoçar seu dia
-                </p>
+                </h1>
         </picture>
-        <video muted loop autoplay>
-                <source media="(min-width: 501px)" src="../static/AÇAI BOT.mp4"
-                        style="video::internal-media-controls{display: ;}">
-                <source media="(max-width: 500px)" src="../static/AÇAI BOT mobille.mp4"
-                        style="video::internal-media-controls{display: ;}">
-        </video>
-        <button id="btnCardapio">
+         <button id="btnCardapio">
                 <a
                         href="https://api.whatsapp.com/send?phone=553499896614&text=Ol%C3%A1,%20eu%20quero%20fazer%20um%20pedido%20!">
                         Fazer meu pedido
                 </a>
         </button>
-        <h2>Sabores de Sorvete</h2>
+        <h2 style="text-align: justify;">Sabores de Sorvete</h2>
+       <section id="sabores">
         <div id="listaDeSabores">
                 <ul>
                         <li>
@@ -74,7 +70,14 @@
                         </li>
                 </ul>
         </div>
-        <footer style="align-items: center; justify-content: center;">
+       </section>
+              <footer style="align-items: center; justify-content: center;">
+                <video muted loop autoplay>
+                        <source media="(min-width: 501px)" src="../static/AÇAI BOT.mp4"
+                                style="video::internal-media-controls{display: ;}">
+                        <source media="(max-width: 500px)" src="../static/AÇAI BOT mobille.mp4"
+                                style="video::internal-media-controls{display: ;}">
+                </video>
                 <a href="https://pablo-kennediy.github.io/curriculo/" style="color: black;">infoprodutos.org</a>
                 © 2024 | Todos os
                 direitos
