@@ -142,9 +142,7 @@ button#btnCardapio {
     margin: auto;
     padding: 15px;
 }
-button#btnCardapio a{
-    
-}
+
 div#listaDeSabores img{
     display: block;
     max-width: 50px;
