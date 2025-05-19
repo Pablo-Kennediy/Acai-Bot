@@ -4,6 +4,14 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+div#interface-cardapio * {
+            margin: auto;
+            background-color: white;
+            color: black;
+}
+ul{
+    padding: 10px;
+}
 footer a, p{
     font-size: small;
 }
