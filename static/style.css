@@ -1,8 +1,8 @@
-body{
+div#interface-cardapio {
     background-image: url('fundo-sorvetes-desktop.png');
 }
 @media (max-width: 500px) {
-    body{
+div#interface-cardapio {
     background-image: url('fundo-sorvestes-mobile.png');
 }
 }
