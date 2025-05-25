@@ -1,11 +1,3 @@
-div#interface-cardapio {
-    background-image: url('fundo-sorvetes-desktop.png');
-}
-@media (max-width: 500px) {
-div#interface-cardapio {
-    background-image: url('fundo-sorvestes-mobile.png');
-}
-}
 * {
     text-align: justify;
     padding: 0;
@@ -41,6 +33,7 @@ header {
 }
 
 a {
+    text-decoration: none;
     color: white;
 }
 
@@ -65,13 +58,6 @@ li {
     display: inline-flex;
     margin: 15px;
     padding: 15px;
-}
-
-.beneficios .mais,
-ul li {
-    border: 2px solid gray;
-    border-radius: 15px;
-    margin-top: 15px;
 }
 
 video {

@@ -43,8 +43,18 @@
     <footer>
         <p>
             <a href="https://pablo-kennediy.github.io/curriculo/" style="color: black;">
-                infoprodutos.org © 2024 | Todos os direitos reservados
+                 Todos os direitos reservados  | infoprodutos.org © <p id="data-hoje"></p>
             </a>
+            <script>
+                const dataAtual = new Date();
+                const opcoesFormatacao = { year: 'numeric'};
+                const dataFormatada = dataAtual.toLocaleDateString('pt-BR', opcoesFormatacao);
+                const elementoData = document.getElementById('data-hoje');
+                if (elementoData) {
+                    elementoData.textContent = dataFormatada;
+                }
+            </script>
+
         </p>
     </footer>
 </body>
